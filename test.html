@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Criminels Recherchés</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        /* Style personnalisé */
+        .criminal-card {
+            width: 100%;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+        .criminal-image {
+            width: 100%;
+            height: auto;
+        }
+        /* Centrer la page sur les petits écrans */
+        @media only screen and (max-width: 320px) {
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+            .w3-container {
+                max-width: none;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+        }
+        .bar {
+            width: 100%;
+            height: 1px;
+            background-color: black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CIR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <div style="margin-left:40%;"></div> -->
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nous contacter</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Liens
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="#">Partenaire</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Etats</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">A propos</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+<div class="w3-container">
+    <h2>Liste des furgitifs Recherchés</h2>
+    <div class="w3-row-padding">
+        <!-- Criminel 1 -->
+        <div class="w3-col s12 m6 l4">
+            <div class="w3-card-4 criminal-card">
+                <img src="https://via.placeholder.com/300" alt="Photo du criminel" class="criminal-image">
+                <div class="w3-container w3-center">
+                    <h3>Nom: Doe</h3>
+                    <p>Prénom: John</p>
+                    <p>Date de Naissance: 01/01/1980</p>
+                    <p>Crime: Vol à main armée</p>
+                    <p>État de la Recherche: En fuite</p>
+                </div>
+                <a href = "index.html"style ="padding:50px">Cliquez ici pour lire plus</a>
+            </div>
+        </div>
+
+
+        <!-- Criminel 2 -->
+        <div class="w3-col s12 m6 l4">
+            <div class="w3-card-4 criminal-card">
+                <img src="https://via.placeholder.com/300" alt="Photo du criminel" class="criminal-image">
+                <div class="w3-container w3-center">
+                    <h3>Nom: Smith</h3>
+                    <p>Prénom: Jane</p>
+                    <p>Date de Naissance: 15/07/1975</p>
+                    <p>Crime: Homicide</p>
+                    <p>État de la Recherche: Recherché</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-col s12 m6 l4">
+            <div class="w3-card-4 criminal-card">
+                <img src="https://via.placeholder.com/300" alt="Photo du criminel" class="criminal-image">
+                <div class="w3-container w3-center">
+                    <h3>Nom: Doe</h3>
+                    <p>Prénom: John</p>
+                    <p>Date de Naissance: 01/01/1980</p>
+                    <p>Crime: Vol à main armée</p>
+                    <p>État de la Recherche: En fuite</p>
+                </div>
+                <a href = "index.html"style ="padding:50px">Cliquez ici pour lire plus</a>
+            </div>
+        </div>
+
+        <div class="w3-col s12 m6 l4">
+            <div class="w3-card-4 criminal-card">
+                <img src="https://via.placeholder.com/300" alt="Photo du criminel" class="criminal-image">
+                <div class="w3-container w3-center">
+                    <h3>Nom: Doe</h3>
+                    <p>Prénom: John</p>
+                    <p>Date de Naissance: 01/01/1980</p>
+                    <p>Crime: Vol à main armée</p>
+                    <p>État de la Recherche: En fuite</p>
+                </div>
+                <a href = "index.html"style ="padding:50px">Cliquez ici pour lire plus</a>
+            </div>
+        </div>
+        
+        <div class="cas-particulier">
+            <p><strong>Cas particulier</strong></p>
+            <div class="bar"></div>
+        </div>
+        <div class="w3-col s12 m6 l4">
+            <div class="w3-card-4 criminal-card">
+                <img src="https://via.placeholder.com/300" alt="Photo du criminel" class="criminal-image">
+                <div class="w3-container w3-center">
+                    <h3>Nom: ATTEREY</h3>
+                    <p>Prénom: Erika</p>
+                    <p>Date de Naissance: 01/01/1980</p>
+                    <p>Crime: Vol à main armée</p>
+                    <p>État de la Recherche: En fuite</p>
+                </div>
+                <a href = "index.html"style ="padding:50px">Cliquez ici pour lire plus</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
